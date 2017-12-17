@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<script language="javascript">
+    function getUrlVars() {
+        var vars = {};
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,
+            function(m, key, value) {
+                vars[key] = value;
+            });
+        return vars;
+    }
+</script>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Cache-Control" content="max-age=86400, must-revalidate" />
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Kyivstar</title>
+</head>
+
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KR8LSH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KR8LSH');</script>
+<!-- End Google Tag Manager -->
+    <div class="fleft">
+        <div class="h-block">
+            <img src="i/ks-logo-ua.png" alt="">
+        </div>
+        <div class="wrapper">
+            <h2>Шановний абоненте!</h2>
+            <p>
+                Під час виконання Вашого запиту за адресою
+                <script language="javascript">
+                    var error = getUrlVars()['error-code'];
+                    var url = getUrlVars()['request-url1'];
+                    document.write('<a href="' + url + '">' + url + '</a> виникла помилка <b>' + error + '</b><br>');
+                    switch (error) {
+                        case '477':
+                            document.location.href = "http://lp.kyivstar.net/lpshape.html";
+                            break
+                        case '400':
+                        case '404':
+                        case '405':
+                        case '410':
+                        case '411':
+                        case '413':
+                        case '414':
+                        case '425':
+                        case '431':
+                        case '434':
+                        case '508':
+                            document.write('(невірна адреса)<br>Рекомендації:<br><ul><li>Перевірте коректність зазначеної адреси</li><li>Уточніть адресу сторінки у адміністрації сайту або через <a href="http://google.ua">пошукову систему</a></li></ul>');
+                            break
+                        case '401':
+                        case '402':
+                        case '403':
+                        case '406':
+                        case '407':
+                        case '408':
+                        case '409':
+                        case '417':
+                        case '423':
+                        case '426':
+                        case '429':
+                        case '449':
+                        case '451':
+                        case '500':
+                        case '501':
+                        case '502':
+                        case '503':
+                        case '504':
+                        case '507':
+                        case '509':
+                        case '511':
+                        case '599':
+                            document.write('(обмеження доступу)<br><br>Рекомендації:<br><li>Перевірте можливість доступу у адміністрації сайту</li><li>Повторіть спробу пізніше</li> ');
+                            break
+                        default:
+                            document.write('(нетипова)<br><br>Рекомендації:<br><li>Перевірте коректність зазначеної адреси</li><li>Уточніть адресу сторінки у адміністрації сайту або через <a href="http://google.ua">пошукову систему</a></li><li>Спробуйте зайти на сайт з іншого пристрою</li>');
+                    }
+                </script>
+                <br>
+                <h4>Нові тарифи для вашого смартфону</h4>
+                <p><a href="https://new.kyivstar.ua/ecare/compatiblePlans?utm_source=lp.kyivstar.net&utm_medium=banner&utm_content=tariffplan&utm_campaign=lp_kyivstar" class="ks-button">Обрати тариф</a></p>
+                <p>Або замовте пакет з оптимальним обсягом МБ, не змінюючи тариф</p>
+                <p><a href="https://new.kyivstar.ua/ecare/services?utm_source=lp.kyivstar.net&utm_medium=banner&utm_content=internet_package&utm_campaign=lp_kyivstar" class="ks-button">Замовити Інтернет-пакет</a></p>
+
+
+                <h4>Інші корисні сервіси для Вашого мобільного</h4>
+                <li>Встановлюй <a href="http://lp.kyivstar.net/veon.html">VEON</a> та спілкуйся, навіть якщо на рахунку 0 грн!</li>
+                <li><a href="http://lp.kyivstar.net/tv.html">Домашнє ТБ</a> - телеканали в цифровій та HD-якості</li>
+                <li><a href="http://lp.kyivstar.net/465.html">D-Jingle</a> - музика замість гудків</li>
+                <h4>Київстар бажає Вам приємного дня!</h4>
+        </div>
+</body>
+
+</html>
